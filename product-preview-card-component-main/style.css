@@ -1,0 +1,85 @@
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 12px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#Background {
+  background-color: hsl(0, 0%, 100%);
+  width: 520px;
+  height: 390px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+  border-radius: 10px;
+}
+#Product {
+  height: 100%;
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+}
+#Infor {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  height: 100%;
+  width: 50%;
+  text-align: left;
+  padding: 0 20px;
+}
+#Name {
+  font-size: 25px;
+  font-family: "Fraunces";
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+  width: 170px;
+}
+#Price {
+  font-size: 25px;
+  font-family: "Fraunces";
+  color: hsl(158, 36%, 37%);
+}
+#oldPrice {
+  font-size: 14px;
+  padding-left: 20px;
+  color: hsl(228, 12%, 48%);
+}
+#Add {
+  align-self: center;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(30, 38%, 92%);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 220px;
+  border-radius: 10px;
+}
+#Add:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+#Cart {
+  padding-right: 5px;
+}
