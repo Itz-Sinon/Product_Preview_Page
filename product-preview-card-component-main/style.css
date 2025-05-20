@@ -4,6 +4,12 @@
   font-weight: 500;
   font-style: normal;
 }
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 .fraunces-700 {
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
@@ -38,7 +44,6 @@ body {
 }
 #Infor {
   color: hsl(228, 12%, 48%);
-  font-family: "Montserrat";
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -50,20 +55,20 @@ body {
 }
 #Name {
   font-size: 25px;
-  font-family: "Fraunces";
   color: hsl(212, 21%, 14%);
   line-height: 1;
   width: 170px;
 }
 #Price {
   font-size: 25px;
-  font-family: "Fraunces";
   color: hsl(158, 36%, 37%);
 }
 #oldPrice {
   font-size: 14px;
-  padding-left: 40px;
+  padding-left: 20px;
   color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
 }
 #Add {
   align-self: center;
